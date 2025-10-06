@@ -1,0 +1,32 @@
+{
+  "event": "GW190521",
+  "model": "hybrid",
+  "injection_model": "hybrid",
+  "seed": 43,
+  "detectors": [
+    "H1",
+    "L1"
+  ],
+  "snr": {
+    "H1": {
+      "snr": 20.251982461811433,
+      "gps": 1242442966.8659668
+    },
+    "L1": {
+      "snr": 9.857086600973243,
+      "gps": 1242442968.3547363
+    },
+    "network": 22.52343113054945
+  },
+  "gps": 1242442967.4,
+  "injection_params": {
+    "m_geff_ev": 1e-23,
+    "foam_strength": 0.8,
+    "foam_corr_m": 1e-16
+  },
+  "model_params": {
+    "m_geff_ev": 1e-23,
+    "foam_strength": 0.8,
+    "foam_corr_m": 1e-16
+  }
+}

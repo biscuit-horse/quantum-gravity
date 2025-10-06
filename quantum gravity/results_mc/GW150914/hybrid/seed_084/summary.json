@@ -1,0 +1,32 @@
+{
+  "event": "GW150914",
+  "model": "hybrid",
+  "injection_model": "hybrid",
+  "seed": 84,
+  "detectors": [
+    "H1",
+    "L1"
+  ],
+  "snr": {
+    "H1": {
+      "snr": 70.40832254224425,
+      "gps": 1126259461.1420898
+    },
+    "L1": {
+      "snr": 86.96563705046397,
+      "gps": 1126259463.3535156
+    },
+    "network": 111.89438730698573
+  },
+  "gps": 1126259462.4,
+  "injection_params": {
+    "m_geff_ev": 1e-23,
+    "foam_strength": 0.8,
+    "foam_corr_m": 5e-17
+  },
+  "model_params": {
+    "m_geff_ev": 1e-23,
+    "foam_strength": 0.8,
+    "foam_corr_m": 5e-17
+  }
+}

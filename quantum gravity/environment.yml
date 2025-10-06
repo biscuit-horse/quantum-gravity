@@ -1,0 +1,17 @@
+name: quantum-foam-gw
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - scipy
+  - sympy
+  - matplotlib
+  - pandas
+  - pip
+  - pip:
+      - gwosc
+      - gwpy
+      - pycbc
+      - bilby

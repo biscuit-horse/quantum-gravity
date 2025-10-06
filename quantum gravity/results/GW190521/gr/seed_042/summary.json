@@ -1,0 +1,36 @@
+{
+  "event": "GW190521",
+  "model": "gr",
+  "injection_model": "hybrid",
+  "seed": 42,
+  "detectors": [
+    "H1",
+    "L1"
+  ],
+  "snr": {
+    "H1": {
+      "snr": 20.251982461811473,
+      "gps": 1242442966.8659668
+    },
+    "L1": {
+      "snr": 9.857086600973172,
+      "gps": 1242442968.3547363
+    },
+    "network": 22.523431130549454
+  },
+  "gps": 1242442967.4,
+  "injection_params": {
+    "m_geff_ev": 1e-23,
+    "foam_strength": 0.8,
+    "foam_corr_m": 1e-16
+  },
+  "model_params": {
+    "m_geff_ev": 0.0,
+    "foam_strength": 0.0,
+    "foam_corr_m": 1e-16
+  },
+  "log_evidence": -113290.4040821166,
+  "log_evidence_err": 0.729765959388762,
+  "log_noise_evidence": -113284.13874006337,
+  "log_bayes_factor": -6.265342053227542
+}
